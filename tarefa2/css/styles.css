@@ -1,0 +1,41 @@
+.container {
+    border: 10px solid aquamarine;
+    padding: 10px;
+}
+
+.row {
+    border: 5px solid red;
+    height: 100px;
+}
+
+.col {
+    border: 5px solid purple;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.bi-arrow-bar-down {
+    color: blue;
+    font-size: 10px;
+}
+
+.bi-arrow-clockwise {
+    color: red;
+    font-size: 20px;
+}
+
+.bi-backspace {
+    color: purple;
+    font-size: 30px;
+    padding: 10px;
+}
+
+span {    
+    font-size: 10px;
+}

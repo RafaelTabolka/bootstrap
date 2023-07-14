@@ -1,0 +1,80 @@
+/* Global */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Container */
+#form-container {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 25px auto;
+  padding: 25px;
+}
+
+/* Componentes do container */
+#form-container h2 {
+    font-weight: 900;
+    margin-bottom: 30px
+}
+
+#form-container a {
+    color: #222;
+    transition: .5s;    
+}
+
+#form-container a:hover {
+    color: #6c63ff;
+}
+
+/* Formulário */
+#form-container form {
+    padding-bottom: 0px;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus { /* Borda azul que tem com o bootstrap quando clica no input */
+    box-shadow: none;
+}
+
+#form-container .form-floating label {
+    color: #ccc;
+}
+
+#form-container .form-floating > .form-control:focus~label { /* Chegando na camada .form-floating, dentro dela alterar
+                                                            o focus do .form-control na tag  label */
+    color: #222;
+}
+
+#form-container .btn,
+#form-container input[type="checkbox"]:checked {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+}
+
+/* Alinhamento dos elementos no container */
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+    padding: 50px 0;
+}
+
+#link-container {
+    text-align:center
+}
+
+/* Responsividade */
+@media (max-width:767px) {
+    #form-container button {
+        width: 100%;
+    }
+
+    .img-fluid {
+        margin-top: 20px;
+    }
+}

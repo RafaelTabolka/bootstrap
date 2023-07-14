@@ -1,0 +1,26 @@
+.container {
+  margin-top: 50px;
+  border: 15px dashed purple;
+  padding: 20px;
+}
+
+.row {
+    align-items: center;
+    border: 15px solid red;
+    height: 300px;
+}
+
+.col-3 {
+    border: 5px solid blue;
+    height: 50px;
+}
+
+#par {
+    background-color: black;
+    color: #fff;
+}
+
+#impar {
+    background-color: blueviolet;
+    color: #fff;
+}

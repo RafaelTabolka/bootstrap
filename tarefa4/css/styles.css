@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+}
+
+.container-fluid {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.img-fluid {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.carousel-item img {    
+    height: 500px;
+    margin: auto;    
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+li.nav-item {
+    
+    display: flex;
+    justify-content: center;    
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.nav-item .nav-link {
+    margin: 0 30px;
+}
+
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-body, .list-group-item {
+    background-color: #232020;
+    color: #fff;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.card {
+    border: 3px solid #e63136;
+}

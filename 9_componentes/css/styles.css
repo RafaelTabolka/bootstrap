@@ -1,0 +1,18 @@
+body {
+    padding-bottom: 500px;
+}
+
+h2 {
+    color: purple;
+    border-bottom: 2px solid black;
+}
+
+h4 {
+    color: darkorchid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}

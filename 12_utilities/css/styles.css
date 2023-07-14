@@ -1,0 +1,25 @@
+body {
+    padding-bottom: 1000px;
+}
+
+h2 {
+    color: purple;
+    border-bottom: 1px solid #101010;
+}
+
+.col-12 {
+    height: 100px;
+}
+
+.altura {
+    height: 500px;
+}
+
+.box {
+    border: 1px solid red;
+}
+
+.box2 {
+    width: 100px;
+    border: 1px solid red;
+}

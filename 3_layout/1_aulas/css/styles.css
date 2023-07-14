@@ -1,0 +1,165 @@
+/* Para podermos substituir um estilo pré definido pelo bootstrap, temos que utilizar a mesma tag
+e caso exista uma classe, precisamos utilizar a mesma classe para estilização ou uma classe de maior valor
+Ex: se pusermos a tag button para estilizar, não funcionará devido que o bootstrap utiliza a classe btn e a classe btn-primary*/
+
+/* XS */
+h1 {
+    color: red;
+}
+
+.btn {
+    background-color: red;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+/* SM >= 576px */
+@media(min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+    
+    .btn {
+        background-color: blue;
+    }
+}
+
+/* MD >= 768px */
+@media(min-width: 768px) {
+    h1 {
+        color: green;
+    }
+    
+    .btn {
+        background-color: green;
+    }
+}
+
+/* LG >= 992px */
+@media(min-width: 992px) {
+    h1 {
+        color: yellow;
+        background-color: black;
+    }
+    
+    .btn {
+        background-color: yellow;
+        color: black;
+    }
+}
+
+/* LG >= 1200px */
+@media(min-width: 1200px) {
+    h1 {
+        color: purple;
+        background-color: black;
+    }
+    
+    .btn {
+        background-color: purple;
+        color: #fff;
+    }
+}
+
+/* LG > 1400px */
+@media(min-width: 1400px) {
+    h1 {
+        color: black;
+        background-color: #fff;
+    }
+    
+    .btn-primary {
+        background-color: green;
+        color: black;
+        border: 3px solid black;
+    }
+}
+
+
+/* Container */
+.container {
+    background-color: #999;
+    margin-top: 10px;
+}
+
+/* Container-fluid */
+
+.container-fluid {
+    background-color: #888;
+}
+
+/* Container Pequeno a partir de 540px */
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+/* Container Médio a partir de 720px */
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+
+/* Container Grande a partir de 960px */
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+/* Grid */
+.container,
+.container-fluid,
+.container-lg{
+    border: 10px dotted blue; 
+    margin-bottom: 300px;   
+}
+
+.row{
+    border: 15px solid purple;
+    padding: 20px;
+    margin: 0;
+}
+
+.col,
+.col-3,
+.col-2,
+.col-1,
+.col-11,
+.col-4,
+.col-8,
+.col-6{
+    border: 2px solid red;
+    padding:20px;
+    text-align: center;
+}
+
+#max-width {
+    max-width: 500px;
+}
+
+.product-a {
+    text-align: left;
+}   
+
+.vertical-align {
+    height: 300px;
+}
+
+.vertical-align .row {
+    height: 100%;
+}
+
+.vertical-align .row .col-6,
+.col-3, .col-4 {
+    height: 20px;
+}
+
+.vertical-align .row .col {
+    height: 50px;
+}
+
+/* Gutter */
+
+
